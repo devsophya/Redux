@@ -84,3 +84,29 @@ export const AddToCartButton = styled.button`
     cursor: pointer;
   }
 `;
+
+export const RemoveFromCartButton = styled.button`
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  background-color: #c06dfa;
+  color: #fefefe;
+  font-size: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+
+  svg {
+    font-size: 0.8rem;
+  }
+
+  &:hover {
+    background-color: #fefefe;
+    color: #c06dfa;
+    border: 1.5px solid #c06dfa;
+    cursor: pointer;
+  }
+`;

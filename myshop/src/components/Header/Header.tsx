@@ -7,7 +7,7 @@ import {
 } from "@phosphor-icons/react";
 import { Cart } from "../Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
-import { RootReducer } from "../../redux/UserReducer/root-reducer";
+import { RootReducer } from "../../redux/root-reducer";
 
 export const Header: React.FC = () => {
   const { user } = useSelector(
