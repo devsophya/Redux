@@ -3,6 +3,7 @@ import * as S from "./styles";
 import { Product } from "../../data/products";
 import { useDispatch, useSelector } from "react-redux";
 import { RootReducer } from "../../redux/root-reducer";
+import { addProduct, removeProduct } from "../../redux/Cart/cart-slice";
 
 interface ProductCardProps {
   product: Product;
@@ -18,17 +19,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     cart.find((productOnCart) => product.id === productOnCart.id) !== undefined;
 
   function handleAddProductToCart() {
-    dispatch({
-      type: "cart/add-product",
-      payload: product,
-    });
+    dispatch(addProduct(product));
   }
 
   function handleRemoveProductFromCart() {
-    dispatch({
-      type: "cart/remove-product",
-      payload: product,
-    });
+    dispatch(removeProduct(product));
   }
 
   return (
