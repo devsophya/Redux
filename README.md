@@ -1,14 +1,14 @@
 # 🛍️ MyShop - Projeto com Redux
 
-<img src="https://github.com/devsophya/Redux/blob/main/myshop/src/assets/redux.gif" alt="MyShop Demo" width="100%"/>
+<img src="https://github.com/devsophya/Redux/blob/main/myshop/src/assets/redux.gif"/>
 
 ---
 
 ## ✅ Conteúdos Adquiridos e Praticados
 
-- Redux I ✔️
-- Redux II ✔️
-- Redux III ✔️
+- Redux I ✨
+- Redux II ✨
+- Redux III ✨
 
 
 
